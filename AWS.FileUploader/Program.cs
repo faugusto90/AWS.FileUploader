@@ -15,7 +15,7 @@ namespace AWS.FileUploader
 
              foreach (var item in buckets)
             {
-                string bucketName = $"{item}.soclminer.com.br";
+                string bucketName = $"{item}";
 
                 myUploader.SendMyFileToS3(bucketName);
 
