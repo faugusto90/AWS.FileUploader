@@ -15,7 +15,7 @@ namespace AWS.FileUploader
 
              foreach (var item in buckets)
             {
-                string bucketName = $"{item}";
+                string bucketName = $"bucket: {item}";
 
                 myUploader.SendMyFileToS3(bucketName);
 
